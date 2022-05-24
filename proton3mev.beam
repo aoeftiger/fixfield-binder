@@ -1,0 +1,29 @@
+proton 3 MeV
+
+938.27	1		//object rest mass [MeV.c^-2], and charge [q.C]
+
+3			//number of keywords to be read
+
+singlepart 3.e6	// Ekin [eV]
+           4.3595109723 0 -0.7286271952	// x [m], y [m], z [m] (x:horiz, y:longit, z:verti)
+           0 0		// atan_dxdy_deg [deg.], atan_dzdy_deg [deg.]
+
+putonco-nelmin 1.e-20	1.e-3	// absolute precision is given in [m]
+
+putonco-xxpzzp 1.e-12		// absolute precision is given in [m]
+
+		   
+
+
+
+
+ellibunch 3 1 1 1 1 1
+          0 0.2		//dt [s] dp_ov_p [/] 
+          0.002 0.0125 		//dx [m] dxprime [rad] 
+          0.0011 0.0079   	//dz [m] dzprime [rad]
+		  
+          3.7394125318 0 -0.9118889814	// x [m], y [m], z [m] (x:horiz, y:longit, z:verti) -2.30393323e-01
+          -3.5273860016e-08 -1.9756859840e-07		// atan_dxdy_deg [deg.], atan_dzdy_deg [deg.]
+FODO: 0.205594, 0.106365
+TRIPLET: 0.197782, 0.335035
+mod1(1.281): 0.189599, 0.339017

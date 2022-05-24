@@ -1,0 +1,1448 @@
+test vffa
+
+1				//lattice periodicity [int]
+1				//number of elements [int]
+1				//number of cell types [int]
+
+
+
+
+1 vffa-rect-atan 9	//element type [char] triplet original
+0.001			//step size [m]
+2. 6. -10  10	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-25.012460	4.341231	-1	0.000000	1.310000	7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+-18.000000	4.308757	1.15	0.000000	1.310000	0.000000
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+-10.987540	4.341231	-1	0.000000	1.310000	-7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+10.987540	4.341231	-1	0.000000	1.310000	7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+18.000000	4.308757	1.15	0.000000	1.310000	0.000000
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+25.012460	4.341231	-1	0.000000	1.310000	-7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+	
+46.987540	4.341231	-1	0.000000	1.310000	7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+54.000000	4.308757	1.15	0.000000	1.310000	0.000000
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+61.01246	4.341231	-1	0.000000	1.310000	-7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+
+
+
+10 vffa-rect-atan 3	//element type [char] triplet original
+0.001			//step size [m]
+2. 6. -0.8  -0.1	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+
+10.987540	4.341231	-1	0.000000	1.310000	7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+18.000000	4.308757	1.15	0.000000	1.310000	0.000000
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+
+25.012460	4.341231	-1	0.000000	1.310000	-7.012460
+	-0.250000	0.15	10	1
+	0.250000	0.15	10	1
+	
+
+1 vffa-rect-atan 9	//element type [char] triplet original
+0.001			//step size [m]
+2. 5. -2.  1.25	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-24.671632	3.873334	-1	0.000000	1.600000	-6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+-18.000000	3.847104	1.25	0.000000	1.600000	0.000000
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+-11.328368	3.873334	-1	0.000000	1.600000	-6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+11.328368	3.873334	-1	0.000000	1.600000	6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+18.000000	3.847104	1.25	0.000000	1.600000	0.000000
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+24.671632	3.873334	-1	0.000000	1.600000	-6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+47.328368	3.873334	-1	0.000000	1.600000	6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+54.000000	3.847104	1.25	0.000000	1.600000	0.000000
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+	
+60.671632	3.873334	-1	0.000000	1.600000	6.671632
+	-0.200000	0.150000	10	1
+	0.200000	0.150000	10	1
+
+
+1 vffa-rect-atan 5	//element type [char] triplet original
+0.01			//step size [m]
+2. 5. -2.  1.25	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-11.622385	3.871061	-1	0.000000	1.600000	-6.377615
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+11.622385	3.871061	-1	0.000000	1.600000	6.377615
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+18.000000	3.847104	1.25	0.000000	1.600000	0.000000
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+24.377615	3.871061	-1	0.000000	1.600000	-6.377615
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+47.622385	3.871061	-1	0.000000	1.600000	6.377615
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 vffa-rect-enge-add 5	//element type [char], 
+0.001			//step size [m]
+2. 5. -1.92 -0.27	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-12.064040	3.867843	-1.0	0.000000	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+12.064040	3.867843	-1.0	0.000000	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+18.000000	3.847104	0.2		0.000000	1.280000	0.000000
+	-0.120000	0.100000	10	1
+	0.120000	0.100000	10	1
+
+23.935960	3.867843	-1.0	0.000000	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+	
+48.064040	3.867843	-1.0	0.000000	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+10 vffa-rect-enge-add 5	//element type [char] modified triplet
+0.01			//step size [m]
+2. 5. -1.  -0.25	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-12.064040	3.867843	-0.332605	-0.86	1.2710000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+12.064040	3.867843	-0.332605	-0.86	1.2710000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+18.000000	3.847104	0.095	-0.86	1.2710000	0.000000
+	-0.120000	0.100000	10	1
+	0.120000	0.100000	10	1
+
+23.935960	3.867843	-0.332605	-0.86	1.2710000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+	
+48.064040	3.867843	-0.332605	-0.86	1.2710000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+
+10 vffa-rect-enge-add 5	//element type [char] triplet original
+0.01			//step size [m]
+2. 5. -1.  -0.25	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-12.064040	3.867843	-0.332605	-0.86	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+12.064040	3.867843	-0.332605	-0.86	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+18.000000	3.847104	0.066521	-0.86	1.280000	0.000000
+	-0.120000	0.100000	10	1
+	0.120000	0.100000	10	1
+
+23.935960	3.867843	-0.332605	-0.86	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+	
+48.064040	3.867843	-0.332605	-0.86	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+
+10 vffa-rect-enge-add 5	//element type [char], 
+0.01			//step size [m]
+2. 5. -1.  -0.25	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+-12.064040	3.867843	-1.0	0.000000	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+12.064040	3.867843	-1.0	0.000000	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+18.000000	3.847104	0.20	0.000000	1.280000	0.000000
+	-0.120000	0.100000	10	1
+	0.120000	0.100000	10	1
+
+23.935960	3.867843	-1.0	0.000000	1.280000	-5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+	
+48.064040	3.867843	-1.0	0.000000	1.280000	5.935960
+	-0.200000	0.100000	10	1
+	0.200000	0.100000	10	1
+
+1 vffa-rect-enge 3	//element type [char], 
+0.0001			//step size [m]
+2. 5. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+12.064040	3.867843	-0.497586	0.000000	1.460000	5.935960
+	-0.200000	0.075000	10	1
+	0.200000	0.075000	10	1
+
+18.000000	3.847104	0.081535	0.000000	1.460000	0.000000
+	-0.120000	0.075000	10	1
+	0.120000	0.075000	10	1
+
+23.935960	3.867843	-0.497586	0.000000	1.460000	-5.935960
+	-0.200000	0.075000	10	1
+	0.200000	0.075000	10	1
+	
+
+
+1 vffa-rect-enge 2	//element type [char], 
+0.0005			//step size [m]
+13. 16.1 -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+24			//element total opening angle [deg]
+0				//deltar
+
+6.	13.923802	 0.9816849	0	0.877262		0
+	-0.3	0.15	6	1.
+	0.3		0.15	6	1.
+	
+18.	14.619292	 -2.945053	0	0.877262		0
+	-0.3	0.15	6	1.
+	0.3		0.15	6	1.
+	
+	
+1 vffa-rect-enge 1	//element type [char], 
+0.001			//step size [m]
+13. 15. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+12			//element total opening angle [deg]
+0				//deltar
+
+6.	13.923802	 0.9816849	0	0.877262		0
+	-0.3	0.15	0	1.
+	0.3		0.15	0	1.
+	
+	
+1 vffa-rect-enge 1	//element type [char], 
+0.001			//step size [m]
+13. 15. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+12			//element total opening angle [deg]
+0				//deltar
+
+	
+6.	14.619292	 -2.945053	0	0.877262		0
+	-0.3	0.15	0	1.
+	0.3		0.15	0	1.
+
+
+
+1 vffa-rect-lin 2	//element type [char], 
+0.001			//step size [m]
+13. 15. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+24			//element total opening angle [deg]
+0				//deltar
+
+6.	13.923847	 1.0	0	0.8772		0
+	-0.3	0.125
+	0.3		0.125
+	
+18.	14.619247	 -3.0	0	0.8772		0
+	-0.3	0.125
+	0.3		0.125
+
+
+
+
+
+1 vffa-rect-lin 4	//element type [char], 
+0.005			//step size [m]
+3. 5. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+6.707871	3.747512	 0.1	0	1.6		6.292129
+	-0.1	0.05
+	0.1		0.05
+	
+11.292130	3.747512	 0.1	0	1.6		-6.292129
+	-0.1	0.05
+	0.1		0.05
+
+24.877602	4.047512	 -0.6	0	1.6		-10.122399
+	-0.1	0.05
+	0.1		0.05
+	
+29.122400	4.047512	 -0.6	0	1.6		10.122399
+	-0.1	0.05
+	0.1		0.05
+
+
+
+1 vffa-rect-lin 2	//element type [char], 
+0.001			//step size [m]
+13. 15. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+24			//element total opening angle [deg]
+0				//deltar
+
+6.	13.923847	 0.15	0	0.8772		0
+	-0.3	0.125
+	0.3		0.125
+	
+18.	14.619247	 -0.5	0	0.8772		0
+	-0.3	0.125
+	0.3		0.125
+
+
+1 vffa-rect-lin 4	//element type [char], 
+0.005			//step size [m]
+3. 5. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+6.707871	3.747512	 0.1	0	1.6		6.292129
+	-0.1	0.05
+	0.1		0.05
+	
+11.292130	3.747512	 0.1	0	1.6		-6.292129
+	-0.1	0.05
+	0.1		0.05
+
+24.877602	4.047512	 -0.5	0	1.6		-10.122399
+	-0.1	0.05
+	0.1		0.05
+	
+29.122400	4.047512	 -0.5	0	1.6		10.122399
+	-0.1	0.05
+	0.1		0.05
+	
+
+
+1 vffa-rect-lin 4	//element type [char], 
+0.005			//step size [m]
+3. 5. -1.3  1.5	//collimators rmin [m], rmax [m], zmax [m]
+36			//element total opening angle [deg]
+0				//deltar
+
+6.707871	3.747512	 0.1	0	1.6		6.292129
+	-0.1	0.05
+	0.1		0.05
+	
+11.292130	3.747512	 0.1	0	1.6		-6.292129
+	-0.1	0.05
+	0.1		0.05
+
+24.877602	4.047512	 -0.5	0	1.6		-10.122399
+	-0.1	0.05
+	0.1		0.05
+	
+29.122400	4.047512	 -0.5	0	1.6		10.122399
+	-0.1	0.05
+	0.1		0.05
+
+
+
+1 ffag-spi-lin 3		//hor. 0.25 / vert. 0.125 	//matching cell betaz=19.54
+0.002			//step size [m]	36.09727805
+35.4 36.7 1		//collimators rmin [m], rmax [m], zmax [m]
+15.			//element total opening angle [deg]
+0.			//deltar
+
+4.1		36.15	-2.61	25.929		0
+	-1.3	0.48
+	1.3		0.48
+
+7.5		36.15	3.029	25.929		0
+	-1.65	0.48
+	1.65	0.48
+
+10.9	36.15	-2.61	25.929		0
+	-1.3	0.48
+	1.3		0.48
+
+
+
+
+1 ffag-spi-enge 3		//hor. 0.25 / vert. 0.125 	//matching cell betaz=19.54
+0.002			//step size [m]	36.09727805
+35.4 36.7 1		//collimators rmin [m], rmax [m], zmax [m]
+15.			//element total opening angle [deg]
+0.			//deltar
+
+4.1		36.15	-2.61	25.929		0
+	-1.3	0.3	12	10
+	1.3		0.3	12	10
+
+7.5		36.15	3.029	25.929		0
+	-1.65	0.3	12	10
+	1.65	0.3	12	10
+
+10.9	36.15	-2.61	25.929		0
+	-1.3	0.3	12	10
+	1.3		0.3	12	10
+
+
+
+1  ffag-r-enge 3		//hor. 0.25 / vert. 0.125 	//matching cell betaz=19.54
+0.002			//step size [m]	36.09727805
+35.4 36.7 1		//collimators rmin [m], rmax [m], zmax [m]
+15.			//element total opening angle [deg]
+0.			//deltar
+
+4.1		36.15	-2.61	25.929
+	-1.3	0.3	-1	2.24
+	1.3		0.3	-1	2.24
+
+7.5		36.15	3.029	25.929
+	-1.65	0.3	-1	2.24
+	1.65	0.3	-1	2.24
+
+10.9	36.15	-2.61	25.929
+	-1.3	0.3	-1	2.24
+	1.3		0.3	-1	2.24
+
+
+
+
+
+
+
+
+
+
+1 quad-lin 3 		//element type [char], number of subelements [int] // 11 enge
+0.001				//step size [m]
+386.0 387. 0.332			//collimators rmin [m], rmax [m], zmax [m]
+15.7735					//element total length [m]
+0					//deltar
+
+10.8735	386.50829936	2.31658		
+	-0.5	0.01	
+	0.5	0.01	
+	
+12.6735	386.50829936	-4.30775		
+	-0.5	0.01	
+	0.5	0.01
+	
+14.4735	386.50829936	2.17752		
+	-0.5	0.01
+	0.5	0.01
+
+
+1 ffag-s-enge 4			// 43.752, 44.007 b
+0.005000			//
+300.7 304.7 0.332	//collimators rmin [m], rmax [m], zmax [m]
+30.000000			//Cell length [m]
+0.			//deltar [m]
+
+7.162298	302.72823187	0.7625		1.604	
+		-0.500000	0.250000	2.240000	
+		0.500000	0.250000	2.240000	
+8.662298	302.72823187	-0.702573	1.604	
+		-0.500000	0.250000	2.240000	
+		0.500000	0.250000	2.240000	
+21.337702	302.72823187	-0.702573	1.604	
+		-0.500000	0.250000	2.240000	
+		0.500000	0.250000	2.240000	
+22.837702	302.72823187	0.7625		1.604	
+		-0.500000	0.250000	2.240000	
+		0.500000	0.250000	2.240000
+
+1 ffag-s-enge 2			//
+0.005000			//
+496.22 496.71 0.332000	//collimators rmin [m], rmax [m], zmax [m]
+6.000000			//Cell length [m]
+0				//deltar [m]
+
+2.0	496.56	-1.0		0.
+-0.7500	0.250000	2.240000
+0.75000		0.250000	2.240000
+
+4.	496.56	1.0	0.
+-0.75000	0.250000	2.240000
+0.7500		0.250000	2.240000
+
+1 quad-lin 4 		//element type [char], number of subelements [int] // 11 enge
+0.001				//step size [m]
+496.228 496.892 0.332			//collimators rmin [m], rmax [m], zmax [m]
+10.6					//element total length [m]
+0					//deltar
+
+1.725	496.56	2.774		
+	-0.725	0.01	
+	0.725	0.01	
+	
+3.975	496.56	-4.966		
+	-0.725	0.01	
+	0.725	0.01
+	
+6.425	496.56	5.04		
+	-0.725	0.01
+	0.725	0.01
+
+8.875	496.56	-2.303		
+	-0.725	0.01
+	0.725	0.01
+
+12 quad-he 3 		//element type [char], 8
+0.001				//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+7.					//element total length [m]
+0					//deltar
+
+0.	3.823967487		-6.325		Q17
+	-0.25	0.01
+	0.25	0.01
+	
+3.5	3.823967487		6.325		Q18
+	-0.25	0.01
+	0.25	0.01
+	
+7.	3.823967487		-6.325		Q17
+	-0.25	0.01
+	0.25	0.01
+	
+1 quad-he 4 		//element type [char], M61
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+11.692		 		//element total length [m]
+0		 			//deltar
+
+0.0	3.823967487		-6.325		Q17
+	-0.25	0.02
+	0.25		0.02
+
+3.785	3.823967487		5.347		Q16
+	-0.385	0.02
+	0.385		0.02
+
+6.4656	3.823967487		-5.685		Q15
+	-0.385	0.02
+	0.385		0.02
+
+9.517	3.823967487		5.608		Q14
+	-0.385	0.02
+	0.385		0.02	
+	
+1 quad-he 2 		//element type [char], 23
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+1.25		 		//element total length [m]
+0		 			//deltar
+
+0.34	3.823967487		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+	
+0.94	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+1 quad-he 2 		//element type [char], 443
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+0.535	3.823967487		11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1.605	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+	
+1 quad-he 2 		//element type [char], 444
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+1.105	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+
+2.175	3.823967487		-11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+1 quad-he 3 		//element type [char], 445
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+1.92		 		//element total length [m]
+0		 			//deltar
+
+0.36	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+0.96	3.823967487		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+	
+1.56	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+1 quad-he 2 		//element type [char], 443
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+0.535	3.823967487		11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1.605	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+	
+1 quad-he 2 		//element type [char], 444
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+1.105	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+
+2.175	3.823967487		-11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+1 quad-he 3 		//element type [char], 445
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+1.92		 		//element total length [m]
+0		 			//deltar
+
+0.36	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+0.96	3.823967487		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+	
+1.56	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+1 quad-he 2 		//element type [char], 443
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+0.535	3.823967487		11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1.605	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+	
+1 quad-he 2 		//element type [char], 444
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+2.71		 		//element total length [m]
+0		 			//deltar
+
+1.105	3.823967487		-10.43		Q13
+	-0.385	0.02
+	0.385		0.02
+
+2.175	3.823967487		-11.579		Q12
+	-0.385	0.02
+	0.385		0.02
+	
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.001			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0.				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+	
+	
+1 quad-he 2 		//element type [char], 446
+0.001	 			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+1.3		 		//element total length [m]
+0		 			//deltar
+
+0.36	3.823967487		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+0.96	3.823967487		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+
+
+1 ffag-r-lin 1		//element type [char], B bcom2arc x2 22 new 
+0.001			//step size [m]
+3.71994319 4.31994319 0.3			//collimators rmin [m], rmax [m], zmax [m]
+31.6414			//element total opening angle [deg]
+0.195975703			//deltar
+
+15.8207	4.01994319	 4.0422354		0.
+	-12.26	2.14
+	12.26	2.14
+
+1 quad-he 1 		//element type [char], M21
+0.001	 			//step size [m]
+9.04151857 9.64151857 0.3			//collimators rmin [m], rmax [m], zmax [m]
+1.94		 		//element total length [m]
+5.32157538	 			//deltar
+	
+1.0	9.34151857		4.488		Q9
+	-0.76		0.2
+	0.76		0.2
+
+1 quad-he 1 		//element type [char], M20
+0.001	 			//step size [m]
+8.84151857 9.84151857 0.5		//collimators rmin [m], rmax [m], zmax [m]
+2.167		 		//element total length [m]
+0		 			//deltar
+
+0.94	9.34151857		-4.779		Q8
+	-0.76		0.2
+	0.76		0.2
+	
+1 quad-he 1 		//element type [char], M142
+0.001	 			//step size [m]
+8.84151857 9.84151857 0.5		//collimators rmin [m], rmax [m], zmax [m]
+7.55		 		//element total length [m]
+0		 			//deltar
+
+3.3	9.34151857		2.816		Q7
+	-0.4	0.2
+	0.4		0.2
+ 	
+1 ffag-r-lin 1		//element type [char], A bcom 141 new
+0.001			//step size [m]
+8.84151857 9.84151857 0.5			//collimators rmin [m], rmax [m], zmax [m]
+13.4936			//element total opening angle [deg]
+0			//deltar
+
+6.7468	9.34151857	 1.5698555		0.
+	-5.828	0.9
+	5.828	0.9
+
+1 quad-he 2 		//element type [char], M132
+0.001	 			//step size [m]
+8.84151857 9.84151857 0.5			//collimators rmin [m], rmax [m], zmax [m]
+2.35		 			//element total length [m]
+0		 			//deltar
+
+0.35	9.34151857		-8.513		Q6
+	-0.2	0.01
+	0.2		0.01
+	
+1.35	9.34151857		7.519		Q5
+	-0.25	0.01
+	0.25	0.01
+	
+1 quad-he 3 		//element type [char], M131
+0.001	 			//step size [m]
+9.04151857 9.64151857 0.3			//collimators rmin [m], rmax [m], zmax [m]
+3.4		 			//element total length [m]
+0		 			//deltar
+
+1.15	9.34151857		-7.811	Q4
+	-0.15	0.1
+	0.15	0.1	
+
+2.25	9.34151857		6.457	Q3
+	-0.15	0.1
+	0.15	0.1
+
+3.4		9.34151857		-2.011 		Q1
+	-0.25	0.1
+	0.25	0.1	
+	
+12 quad-he 3 		//element type [char], number of subelements [int] // 11
+0.001				//step size [m]
+9.04151857 9.64151857 0.3			//collimators rmin [m], rmax [m], zmax [m]
+7.					//element total length [m]
+0					//deltar
+
+0.	9.34151857	-2.011		Q1
+	-0.25	0.1
+	0.25	0.1
+	
+3.5	9.34151857	2.011		Q2
+	-0.25	0.1
+	0.25	0.1
+	
+7.	9.34151857	-2.011		Q1
+	-0.25	0.1
+	0.25	0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+********************************************************	
+********************************************************
+ARC ONLY
+
+1 ffag-r-lin 1		//element type [char], A bcom 141
+0.005			//step size [m]
+8.84 9.84 0.5			//collimators rmin [m], rmax [m], zmax [m]
+13.4936			//element total opening angle [deg]
+0			//deltar
+
+6.7468	9.34	 1.570108637		0.
+	-5.828	0.9
+	5.828	0.9
+	
+1 ffag-r-lin 1		//element type [char], B bcom2arc x2 22 
+0.005			//step size [m]
+3.72 4.32 0.3			//collimators rmin [m], rmax [m], zmax [m]
+31.6414			//element total opening angle [deg]
+-5.32			//deltar
+
+15.8207	4.02	 4.04217563		0.
+	-12.26	2.14
+	12.26	2.14	
+
+1 ffag-r-lin 1	//element type [char], C barc 442
+0.005			//step size [m]
+3.52 4.12 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+-0.2				//deltar
+
+11.23875	3.82	 4.13272233		0.
+	-9.0	2.24
+	9.0		2.24
+
+11 ffag-r-lin 1	//element type [char], C barc 442
+0.005			//step size [m]
+3.52 4.12 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.82	 4.13272233		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 ffag-r-lin 1		//element type [char], B bcom2arc x2 22 
+0.005			//step size [m]
+3.72 4.32 0.3			//collimators rmin [m], rmax [m], zmax [m]
+31.6414			//element total opening angle [deg]
+0.2			//deltar
+
+15.8207	4.02	 4.04217563		0.
+	-12.26	2.14
+	12.26	2.14
+
+1 ffag-r-lin 1		//element type [char], A bcom 141
+0.005			//step size [m]
+8.84 9.84 0.5			//collimators rmin [m], rmax [m], zmax [m]
+13.4936			//element total opening angle [deg]
+5.32			//deltar
+
+6.7468	9.34	 1.570108637		0.
+	-5.828	0.9
+	5.828	0.9
+
+
+********************************************************
+
+SANS QUAD
+
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+180.75
+
+1 ffag-r-lin 1		//element type [char], A bcom 141 new
+0.005			//step size [m]
+8.84151857 9.84151857 0.5			//collimators rmin [m], rmax [m], zmax [m]
+13.4936			//element total opening angle [deg]
+0			//deltar
+
+6.7468	9.34151857	 1.5698555		0.
+	-5.828	0.9
+	5.828	0.9
+	
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+11.657
+	
+1 ffag-r-lin 1		//element type [char], B bcom2arc x2 22 new 
+0.005			//step size [m]
+3.71994319 4.31994319 0.3			//collimators rmin [m], rmax [m], zmax [m]
+31.6414			//element total opening angle [deg]
+-5.32157538			//deltar
+
+15.8207	4.01994319	 4.0422354		0.
+	-12.26	2.14
+	12.26	2.14	
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.25
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+-0.195975703				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.92
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.92
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+201.284
+
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.92
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.92
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.42
+
+1 ffag-r-lin 1	//element type [char], C barc 442 new
+0.005			//step size [m]
+3.523967487 4.123967487 0.3	//collimators rmin [m], rmax [m], zmax [m]
+22.4775			//element total opening angle [deg]
+0				//deltar
+
+11.23875	3.823967487	 4.12844208		0.
+	-9.0	2.24
+	9.0		2.24
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+1.65
+
+
+1 ffag-r-lin 1		//element type [char], B bcom2arc x2 22 new 
+0.005			//step size [m]
+3.71994319 4.31994319 0.3			//collimators rmin [m], rmax [m], zmax [m]
+31.6414			//element total opening angle [deg]
+0.195975703			//deltar
+
+15.8207	4.01994319	 4.0422354		0.
+	-12.26	2.14
+	12.26	2.14
+	
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+11.657
+
+
+1 ffag-r-lin 1		//element type [char], A bcom 141 new
+0.005			//step size [m]
+8.84151857 9.84151857 0.5			//collimators rmin [m], rmax [m], zmax [m]
+13.4936			//element total opening angle [deg]
+5.32157538			//deltar
+
+6.7468	9.34151857	 1.5698555		0.
+	-5.828	0.9
+	5.828	0.9
+
+1 drift 
+0.005			//tracking step size [m]
+0 200 0.5		//collimators rmin [m], rmax [m], zmax [m]
+5.75
+
+
+*********************************************************
+
+	
+	
+	
+	
+	
+
+---------------------------------------------------------	
+	
+1 quad-he 3 		//element type [char], 445
+0.005	 			//step size [m]
+3.52 4.12 0.3		//collimators rmin [m], rmax [m], zmax [m]
+1.92		 		//element total length [m]
+0		 			//deltar
+
+0.36	3.82		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+0.96	3.82		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+	
+1.56	3.82		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+
+------------------------------------------------------------------	
+	
+1 quad-he 2 		//element type [char], 446
+0.005	 			//step size [m]
+3.52 4.12 0.3		//collimators rmin [m], rmax [m], zmax [m]
+1.65		 		//element total length [m]
+0		 			//deltar
+
+0.36	3.82		-6.91		Q11
+	-0.1	0.02
+	0.1		0.02
+	
+0.96	3.82		-10.374		Q10
+	-0.19	0.02
+	0.19		0.02
+	
+--------------------------------------------------------------------
+		
+1 quad-he 4 		//element type [char], 61
+0.005	 			//step size [m]
+3.52 4.12 0.3		//collimators rmin [m], rmax [m], zmax [m]
+11.692		 		//element total length [m]
+0		 			//deltar
+
+2.175	3.82		5.608		Q14
+	-0.385	0.02
+	0.385		0.02
+	
+5.2264	3.82		-5.685		Q15
+	-0.385	0.02
+	0.385		0.02
+	
+7.907	3.82		5.347		Q16
+	-0.385	0.02
+	0.385		0.02
+	
+11.692	3.82		-6.325		Q17
+	-0.25	0.02
+	0.25		0.02
+	
+--------------------------------------------------------------------
+	
+1 quad-he 4 		//element type [char], M61
+0.005	 			//step size [m]
+3.52 4.12 0.3		//collimators rmin [m], rmax [m], zmax [m]
+11.692		 		//element total length [m]
+0		 			//deltar
+
+0.0	3.82		-6.325		Q17
+	-0.25	0.02
+	0.25		0.02
+
+3.785	3.82		5.347		Q16
+	-0.385	0.02
+	0.385		0.02
+
+6.4656	3.82		-5.685		Q15
+	-0.385	0.02
+	0.385		0.02
+
+9.517	3.82		5.608		Q14
+	-0.385	0.02
+	0.385		0.02
+	
+--------------------------------------------------------------------
+		
+1 quad-he 1 		//element type [char], M20
+0.005	 			//step size [m]
+8.84 9.84 0.5		//collimators rmin [m], rmax [m], zmax [m]
+2.167		 		//element total length [m]
+0		 			//deltar
+
+0.94	9.34		-4.779		Q8
+	-0.76		0.2
+	0.76		0.2
+
+--------------------------------------------------------------------
+
+1 quad-he 1 		//element type [char], M21
+0.005	 			//step size [m]
+9.04 9.64 0.3		//collimators rmin [m], rmax [m], zmax [m]
+1.94		 		//element total length [m]
+0		 			//deltar
+	
+1.0	9.34		4.488		Q9
+	-0.76		0.2
+	0.76		0.2
+	
+--------------------------------------------------------------------
+	
+1 quad-he 1 		//element type [char], M142
+0.005	 			//step size [m]
+8.84 9.84 0.5		//collimators rmin [m], rmax [m], zmax [m]
+7.55		 		//element total length [m]
+0		 			//deltar
+
+3.3	9.34		2.816		Q7
+	-0.4	0.2
+	0.4		0.2
+		
+--------------------------------------------------------------------
+	
+1 quad-he 3 		//element type [char], M131
+0.005	 			//step size [m]
+9.04 9.64 0.3			//collimators rmin [m], rmax [m], zmax [m]
+3.4		 			//element total length [m]
+0		 			//deltar
+
+1.15	9.34		-7.811	Q4
+	-0.15	0.1
+	0.15	0.1	
+
+2.25	9.34		6.457	Q3
+	-0.15	0.1
+	0.15	0.1
+
+3.4		9.34		-2.011 		Q1
+	-0.25	0.1
+	0.25	0.1
+		
+	
+--------------------------------------------------------------------
+
+1 quad-he 2 		//element type [char], M132
+0.005	 			//step size [m]
+8.84 9.84 0.5			//collimators rmin [m], rmax [m], zmax [m]
+2.35		 			//element total length [m]
+0		 			//deltar
+
+0.35	9.34		-8.513		Q6
+	-0.2	0.01
+	0.2		0.01
+	
+1.35	9.34		7.519		Q5
+	-0.25	0.01
+	0.25	0.01
+	
+--------------------------------------------------------------------
+	
+25 quad-he 3 		//element type [char], 8
+0.005				//step size [m]
+3.52 4.12 0.3			//collimators rmin [m], rmax [m], zmax [m]
+7.					//element total length [m]
+0					//deltar
+
+0.	3.82		-6.325		Q17
+	-0.25	0.01
+	0.25	0.01
+	
+3.5	3.82		6.325		Q18
+	-0.25	0.01
+	0.25	0.01
+	
+7.	3.82		-6.325		Q17
+	-0.25	0.01
+	0.25	0.01
