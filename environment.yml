@@ -1,0 +1,14 @@
+name: fixfield-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip:
+    - matplotlib
+    - seaborn
+    - scipy
+    - sklearn
+    - gym
+    - jax
+    - tqdm
