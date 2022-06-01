@@ -102,7 +102,7 @@ def decoupling_matrix(matrix):
         #print "exp_phi: ", exp_phi
         #print "exp_mphi: ", exp_mphi
         #print "alpha: ", alpha
-        print("tune: ", tune, "1-tune", 1-np.abs(tune))
+        print("tune: ", tune, "1-tune", 1-numpy.abs(tune))
         par_t_evector_inv[j  ,j  ] = (-alpha-1j)*exp_mphi/(numpy.sqrt(beta));
         par_t_evector_inv[j+1  ,j] = -(-alpha+1j)*exp_phi/(numpy.sqrt(beta));
         par_t_evector_inv[j,j+1  ] = -numpy.sqrt(beta)*exp_mphi;
