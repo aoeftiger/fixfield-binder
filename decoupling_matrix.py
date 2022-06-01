@@ -13,7 +13,7 @@ def swap_eigen_order(eigenvalue, eigenvector, i,j):
     for n in range(4): eigenvector[n,i] = eigenvector[n,j]
     for n in range(4): eigenvector[n,j] = conj_change[n]
 
-def decoupling_matrix(matrix, r, r_inv, t):
+def decoupling_matrix(matrix):
     #print matrix
     eigenvalues, eigenvectors = numpy.linalg.eig(matrix)
     #print "original eigenvalues:"
@@ -124,6 +124,8 @@ def decoupling_matrix(matrix, r, r_inv, t):
     print("T:")
     print(t)
     print("det:", numpy.linalg.det(t))
+
+    return r, r_inv, t
 
 def swap_eigenvalues_order(eigenvalue, i,j):
     conj_change = [0,0,0,0]
