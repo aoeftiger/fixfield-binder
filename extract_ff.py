@@ -5,8 +5,8 @@ def run_fixfield():
     print ('Running fixfield.exe...')
     # output = subprocess.check_output(["./fixfield.exe"], shell=True)
 
-    bashCommand = './../fixfield-source/fixfield.exe'
-    # bashCommand = './fixfield.exe -1 1.15 1.31 0 0'
+    # bashCommand = './../fixfield-source/fixfield.exe'
+    bashCommand = './../fixfield-source/fixfield.exe -1 1.15 1.31 0 0'
     outfile = open('output.txt', 'w')
     process = subprocess.Popen(bashCommand.split(), stdout=outfile)
     output, error = process.communicate()
