@@ -70,6 +70,7 @@ alignment error: NO
 		0.250000 0.150000 10.000000 1.000000 
 	
 
+r0=4.530495 (=OA in report)
 phif1 = 0.122391
 cell modified: 
 keyword: vffa-rect-atan, nb of components: 9
@@ -114,33 +115,35 @@ alignment error: NO
 		-0.250000 0.150000 10.000000 1.000000 
 		0.250000 0.150000 10.000000 1.000000 
 	
+decoupling matrix
+R=
+1.038156e+00 	8.186404e-17 	1.933651e-01 	-1.550520e-05 	
+-9.041500e-17 	1.038156e+00 	-1.908082e-05 	-3.962125e-01 	
+4.004196e-01 	1.026638e-04 	1.037600e+00 	5.567099e-16 	
+5.483625e-05 	-1.942143e-01 	-2.900368e-17 	1.037600e+00 	
 
 READING INPUT: proton3mev.beam ...
 
 ... header: 		proton 3 MeV
 ... MassCharge: 	9.382700e+02 [MeV*c^-2]	1.000000e+00 [q.C]
-... number of keywords to be read: 3
+... number of keywords to be read: 1
   --> single particle generation routine: "singlepart"
 in load_beam, generate singlepart, py = 4.013066e-20
    p_part = 4.013066e-20 [USI] = 7.509075e+07 [eV/c], Brho = 0.2504758[T.m]
+Particle after modification:: 
+framework: xc = 0.000000[m] yc = 0.000000[m] ae = 0.000000[deg]
+(status,m0,q) = (0, 1.672619e-27, 1.602177e-19)
+(brho,s,t) = (2.504758e-01, 0.000000e+00, 0.000000e+00)
+(x,y,z) = (4.35951099e+00, 0.00000000e+00, -7.28626868e-01)
+(ux,uy,uz) = (0.00000000e+00, 1.00000000e+00, 0.00000000e+00)
+x' = 0.00000000e+00[deg], z' = 0.00000000e+00[deg]
 
-NOW LOOKING FOR ROUGH CLOSED ORBIT ...
+DA computation over 1000 lattices:
+acceptance in u,v: au = 0.022000, av = 0.022000
 
+get_bfield: particle is going backward
 
-NOW LOOKING FOR CLOSED ORBIT ...
-
-Closed orbit found: x_clo = 4.3595109890 [m], xprime_clo = 2.9023431458e-10 [deg], 
-z_clo = -0.7286268675 [m], zprime_clo = -3.2797377139e-10 [deg], eps = 7.350033e-13 [m]
-
-computing 4D Transfer matrix...
-
---------------------------------- Get matrix first order -------------------------------------
--0.011996	-0.911259	0.138038	0.211074	
-1.106516	-0.011575	-0.146542	-0.282760	
--0.285788	0.209392	0.782058	3.079843	
--0.146732	0.138470	-0.128942	0.781688	
-bias = 1.000000e-05
-determinant of m = 0.999962
+DA NO
 
 DONE
 clean up memory and files...
